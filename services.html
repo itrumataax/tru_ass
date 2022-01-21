@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/style.css"/> 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body style="background-color:#86b47d;">
+<div class="topnav" id="myTopnav">
+  <a href="Landing.html" class="active">Home</a>
+  <a href="services.html">Services</a>
+  <a href="Contact.html">Contact</a>
+  <a href="Form.html">Form</a>
+  <a href="Login.html" style="float: right;">Login</a>
+  <a href="Register.html" style="float: right;">Register</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<div style="padding-left:16px">
+</div>
+
+<<!-- h1><b> Mangan da Kita is one the booming food businesses in the city, acting as key player in the
+    field. Located in the heart of the city, this al fresco food hub specializes on authentic Filipino
+    cuisine found mostly in the different provinces and municipalities of Northeastern Mindanao.</b></h1> -->
+<video width="50%" controls autoplay>
+  <source src="img/MANGAN DA KITA.mp4" type="video/mp4">
+</video>
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+</body>
+</html>
